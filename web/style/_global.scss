@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: $dark-color;
+}
+.hero{
+    background-image: url("./background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    max-width: 100px 0;
+}
+section{
+    padding: 100px 0;
+    
+    .underline-small{
+        color: $yellow-color;
+        position: relative;
+        
+    }
+    .underline-small::after{
+        content: '';
+        margin-top: 6px;
+        background: $yellow-color;
+        height: 5px;
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+    .section-tittle{
+        font-size: $heading-2-size;
+        font-weight: 700;
+        color: $white-color;
+        text-align: center;
+        line-height: 90px;
+    }
+}
+.cta{
+    background-image: url("./background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}

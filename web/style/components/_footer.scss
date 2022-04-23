@@ -1,0 +1,31 @@
+.foot{
+    background: linear-gradient(180deg, #141310 0%, #21222B 78.44%, #252734 100%);
+    padding: 50px 0;
+    
+    .footer-brand{
+        font-style: italic;
+        font-size: $heading-3-size;
+        font-weight: 600;
+        color: $yellow-color;
+        letter-spacing: 0.06cm;
+        text-decoration: 0;
+        span{
+            color: $white-color;
+        }
+    }
+    .footer-tittle{
+        font-size: $heading-5-size;
+        font-weight: 600;
+        color: $yellow-color;
+    }
+    .footer-list{
+        list-style: none;
+        padding: 0;
+
+            a{
+                color: $white-color;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+    }
+}
