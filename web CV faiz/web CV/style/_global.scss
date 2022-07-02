@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: $white-color;
+}
+
+img {
+    max-width: 100px 0;
+}
+
+section {
+    .underline-small {
+        color: $blue-color;
+        position: relative;
+    }
+    .underline-small::after {
+        content: '';
+        margin-top: 6px;
+        background: $blue-color;
+        height: 10px;
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+    .section-tittle {
+        font-size: $heading-2-size;
+        font-weight: 700;
+        color: $white-color;
+        line-height: 90px;
+    }
+}
+
+.cta {
+    background-image: url("./background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}

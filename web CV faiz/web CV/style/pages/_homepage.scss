@@ -1,0 +1,227 @@
+.hero {
+    h2 {
+        font-size: $heading-3-size;
+        font-weight: 600;
+        color: $black-color;
+        line-height: 75px;
+        letter-spacing: 0.06cm;
+    }
+    h1 {
+        font-size: $heading-2-size;
+        font-weight: 800;
+        color: $black-color;
+        margin-bottom: 10px;
+        line-height: 80px;
+    }
+    p {
+        font-size: $body-2-size;
+        color: $black-color;
+    }
+    span {
+        font-weight: 700;
+        color: $blue-color;
+    }
+    img.logo {
+        max-width: 95%;
+        // margin-top: 55px;
+        // margin-left: 20%;
+        filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
+        transition: 0.5s;
+    }
+}
+
+.about {
+    background: $orange-color;
+    .underline-small::after {
+        content: '';
+        margin-top: 6px;
+        background: $blue-color;
+        height: 10px;
+        width: 40%;
+        // position: absolute;
+        bottom: 2%;
+        margin-bottom: 15px;
+        left: 0%;
+    }
+    h2 {
+        color: $blue-color;
+        text-align: justify;
+    }
+    span {
+        color: $blue-color;
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+        color: $black-color;
+        font-weight: 500;
+        line-height: 48px;
+        font-style: normal;
+        font-size: $body-1-size;
+    }
+    img.foto {
+        max-width: 75%;
+        height: 821px;
+        // margin-top: 55px;
+        // margin-left: 20%;
+        // filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
+        // transition: 0.5s;
+    }
+    h4 {
+        width: 814px;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 54px;
+        /* identical to box height */
+        letter-spacing: 0.32em;
+        color: #0500FF;
+    }
+}
+
+.service {
+    .card-service {
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 21px;
+        background-color: $light-color;
+        margin-top: 120px;
+        width: 350px;
+        height: 430px;
+        transition: 0.5s;
+        .card-body {
+            img {
+                width: 120px;
+                // margin-top: 30px;
+                margin-bottom: 20px;
+                height: 120px;
+            }
+            h3 {
+                text-align: justify;
+                font-size: $heading-4-size;
+                font-weight: 700;
+                color: $white-color;
+                letter-spacing: 0.06cm;
+            }
+            p {
+                text-align: justify;
+                font-weight: 400;
+                color: $white-color;
+                margin-top: 17px;
+            }
+        }
+        &:hover {
+            transform: translateY(-20px);
+        }
+    }
+}
+
+.statistic {
+    padding: 36px;
+    background: $orange-color;
+    border-radius: 5px;
+    position: relative;
+    .statistic-title {
+        font-size: $heading-3-size;
+        font-weight: 700;
+        color: $blue-color;
+        @media screen and (max-width: 768px) {
+            font-size: $heading-5-size;
+        }
+    }
+    .spartnership {
+        filter: grayscale(50%);
+    }
+}
+
+.portfolio {
+    background: $light-color;
+    .card-destination {
+        filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
+        margin-top: 50px;
+        height: 398px;
+        width: 398px;
+        background-size: cover;
+        border-radius: 16px;
+        transition: 0.5s;
+        .card-body {
+            border-radius: 16px;
+            //  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+            //  position: relative;
+        }
+        &:hover {
+            transform: translateY(-20px);
+        }
+        .content {
+            position: absolute;
+            bottom: 20px;
+        }
+    }
+}
+
+.comment {
+    .carousel {
+        margin-left: 30px;
+        filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
+    }
+    .carousel-inner {
+        margin-top: 50px;
+    }
+}
+
+.media {
+    .row {
+        margin-top: 50px;
+        // margin-left: 10px;
+        .prob {
+            width: 239px;
+            height: 312px;
+            margin-bottom: 40px;
+        }
+        .onlenkan {
+            width: 400px;
+            height: 200px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.kosong {
+    background: linear-gradient(180deg, #252734 0%, #171413 100%);
+    // margin-top: 5px;
+}
+
+.cta {
+    h1 {
+        font-size: $heading-2-size;
+        font-weight: 700;
+        color: $yellow-color;
+        line-height: 80px;
+        letter-spacing: 0.06cm;
+    }
+    h3 {
+        font-size: $heading-4-size;
+        font-weight: 500;
+        color: $white-color;
+        // line-height: 80px;
+        letter-spacing: 0.06cm;
+    }
+    p {
+        font-size: $body-3-size;
+        font-weight: lighter;
+        color: $white-color;
+        margin-bottom: 35px;
+        font-style: italic;
+    }
+    span {
+        color: $yellow-color;
+        font-weight: 700;
+    }
+}
+
+.footer {
+    letter-spacing: 0.06cm;
+    font-weight: 400;
+    font-size: $body-3-size;
+    color: $white-color;
+    text-align: center;
+    font-style: italic;
+}

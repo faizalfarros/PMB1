@@ -1,0 +1,28 @@
+.navbar {
+    background: #FDB827;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    .navbar-brand {
+        font-style: italic;
+        font-size: $heading-4-size;
+        font-weight: 600;
+        color: $black-color;
+        letter-spacing: 0.06cm;
+        span {
+            color: $white-color;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            margin-right: 30px;
+            .nav-link {
+                color: $black-color;
+                font-size: $body-2-size;
+                font-weight: 600;
+                letter-spacing: 0.06em;
+                &.active {
+                    color: $blue-color;
+                }
+            }
+        }
+    }
+}
